@@ -2,8 +2,6 @@ import streamlit as st
 import numpy as np
 import joblib
 
-
-
 # 1. Load the model, scaler, and encoder
 model = joblib.load('model.pkl')
 scaler = joblib.load('scaler.pkl')
